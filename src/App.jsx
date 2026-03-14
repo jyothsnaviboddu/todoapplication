@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import A from './Components/A.jsx'
 import {myContext} from './Components/Mycontext.js'
 import Counter from './Counter.jsx'
+import Todolist from './Todolist/Todolist.jsx'
 import './App.css'
 
 function App()
@@ -23,6 +24,7 @@ function App()
   return  <myContext.Provider value={{c,a,abc}}>
         
             <Counter/>
+            <Todolist/>
 
          </myContext.Provider>
           
