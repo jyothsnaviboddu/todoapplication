@@ -21,7 +21,7 @@ function App()
   }
   var a="harshitha"
   return  <myContext.Provider value={{c,a,abc}}>
-            <A/>
+        
             <Counter/>
 
          </myContext.Provider>
