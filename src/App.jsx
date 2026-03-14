@@ -23,9 +23,7 @@ function App()
   var a="harshitha"
   return  <myContext.Provider value={{c,a,abc}}>
         
-            <Counter/>
-            <Todolist/>
-
+                <h2>hello jyothsnavi</h2>
          </myContext.Provider>
           
   
