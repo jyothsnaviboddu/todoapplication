@@ -1,16 +1,8 @@
-import React from "react"
+import React from "react";
+import useCounter from "./Components/Hooks/Counter";
 function Counter()
 {
-    var [c,setC]=React.useState(0)
-    function inc()
-    {
-        setC(c+1)
-    }
-     function dec()
-    {
-        setC(c-1)
-    }
-   
+    const [c,inc,dec]=useCounter()   
     return <div className="border border-success border-5 m-3 p-4">
                 <h1>Count:{c}</h1>
                 <button onClick={()=>{inc()}}>Increment</button>
