@@ -5,7 +5,10 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import A from './Components/A.jsx'
 import {myContext} from './Components/Mycontext.js'
 import Counter from './Counter.jsx'
-import Todolist from './Todolist/Todolist.jsx'
+import Todolist from './Components/Features/Todolist/Todolist.jsx'
+import Calculator from './Components/Features/Calculator.jsx'
+import { Outlet ,Link} from 'react-router-dom'
+import Products from './Components/Products/Products.jsx'
 import './App.css'
 
 function App()
@@ -21,10 +24,17 @@ function App()
       alert("Hello Jyothsnavi....!")
   }
   var a="harshitha"
-  return  <myContext.Provider value={{c,a,abc}}>
-        
-                <h2>hello jyothsnavi</h2>
-         </myContext.Provider>
+  return  <div>
+            <Link to='/counter'>Counter</Link>
+            <br></br>
+           <Link to='/todolist'>Todolist</Link>
+           <br/>
+           <Link to='/stopwatch'>Stopwatch</Link>
+           <br/>
+           <Link to='/products'>Products</Link>
+            <Outlet></Outlet>
+           </div>     
+         
           
   
       
