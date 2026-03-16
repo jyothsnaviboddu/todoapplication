@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Counter from './Counter.jsx'
-import Todolist from './Components/Features/Todolist/Todolist.jsx'
+import Todolist from './Todolist/Todolist.jsx'
 import Stopwatch from './Stopwatch.jsx'
 import { createBrowserRouter,RouterProvider} from 'react-router-dom';
 import Products from './Components/Products/Products.jsx'
