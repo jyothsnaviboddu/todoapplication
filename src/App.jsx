@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import A from './Components/A.jsx'
 import {myContext} from './Components/Mycontext.js'
+import Employeeform from './Formhandling/Form.jsx'
 import './App.css'
 
 function App()
@@ -19,10 +20,9 @@ function App()
       alert("Hello Jyothsnavi....!")
   }
   var a="harshitha"
-  return  <myContext.Provider value={{c,a,abc}}>
-            <A/>
-         </myContext.Provider>
-          
+  return <div>
+            <Employeeform></Employeeform>
+  </div> 
   
       
         
