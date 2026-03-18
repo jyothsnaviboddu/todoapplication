@@ -50,7 +50,7 @@ function Todolist()
         }
     const [ntd,setNtd]=React.useState("")
     const[ r,setR]=React.useState('all')
-    return <div className="border border-4 border-success rounded bg-light m-5 p-4">
+    return <div className="border border-4 border-success rounded m-5 p-4">
                 <h3>Todolist</h3>
                 <input type="text" onChange={(e)=>{setNtd(e.target.value)}} />
                 <button

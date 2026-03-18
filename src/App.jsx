@@ -6,6 +6,7 @@ import A from './Components/A.jsx'
 import {myContext} from './Components/Mycontext.js'
 import Counter from './Reducres/Counter.jsx'
 import Todolist from './Reducres/Todolist.jsx'
+import Themeswitcher from './Reducres/Themeswitcher.jsx'
 import './App.css'
 
 function App()
@@ -23,8 +24,11 @@ function App()
   var a="harshitha"
   return  <myContext.Provider value={{c,a,abc}}>
         
-            <Counter/>
-            <Todolist/>
+          
+            <Themeswitcher>
+                </Themeswitcher>
+                 
+            
          </myContext.Provider>
           
   

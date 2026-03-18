@@ -1,0 +1,48 @@
+.my-box{
+      
+        height: 1000px;
+        width: 100%;
+        background-color: rgb(229, 237, 234);
+}
+.my-box1{
+        height: 1000px;
+        width: 100%;
+        color:rgb(255, 255, 255);
+        background-color: rgb(78, 77, 76);
+}
+.my-box2{
+        height: 1000px;
+        width: 100%;
+        color:rgb(19, 19, 20);
+        background-color: rgb(221, 160, 225);
+}
+
+
+.btn
+{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin:10px;
+    background: linear-gradient(rgb(15, 15, 15));
+
+}
+.btn1
+{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin:10px;
+    background: linear-gradient(rgb(164, 174, 176));
+
+}
+.btn2
+{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin:10px;
+    background: linear-gradient(rgb(228, 149, 215));
+
+}
+
