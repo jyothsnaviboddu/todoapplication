@@ -4,28 +4,17 @@ import viteLogo from '/vite.svg'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import A from './Components/A.jsx'
 import {myContext} from './Components/Mycontext.js'
+import Counter from './Counterredux.jsx'
+import Todolist from './Todolistredux.jsx'
 import './App.css'
 
 function App()
  {
-  
-  
-  var c={
-        firstname:"Jyothsnavi",
-        lastname:"Boddu"
-      }
-  function abc()
-  {
-      alert("Hello Jyothsnavi....!")
-  }
-  var a="harshitha"
-  return  <myContext.Provider value={{c,a,abc}}>
-            <A/>
-         </myContext.Provider>
-          
-  
-      
-        
+   return  <div>
+            <Counter/>
+            <Todolist/>
+   </div>
+              
          
   
 }
